@@ -1,0 +1,35 @@
+.search-bar {
+    h3 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .btn {
+        margin-left: 24px;
+    }
+
+    input {
+        border-radius: 8px;
+        padding: 10px 14px;
+        width: 212px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-bar-input {
+        position: relative;
+
+        .search-bar-icon {
+            position: absolute;
+            right: 14px;
+            top: 15px;
+        }
+    }
+
+    ::placeholder {
+        color: #C4C4C4;
+    }
+}

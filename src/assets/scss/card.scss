@@ -1,0 +1,29 @@
+.info-margin {
+    &:not(:last-child) {
+        margin: 0px 30px 0px 0px;
+    }
+
+    .info-card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+
+        .info-card-icon {
+            width: 28px;
+            height: 35px;
+        }
+
+        .info-card-text {
+            margin-top: 15px;
+            color: #6C6C6C;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .info-card-number {
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}

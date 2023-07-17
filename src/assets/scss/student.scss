@@ -1,0 +1,94 @@
+.students {
+    background-color: #F8F8F8;
+
+    .border-gray {
+        background-color: #E5E5E5;
+        height: 1px;
+        margin: 0px 30px;
+    }
+
+    .student-table {
+        padding: 0px 30px;
+
+        .table-thead {
+            padding: 20px 14px;
+            font-size: 12px;
+            color: #ACACAC;
+        }
+
+
+        .student-card {
+            background-color: #fff;
+            padding: 14px;
+            align-items: center;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 14px !important;
+
+            .student-card-avatar {
+                img {
+                    width: 64px;
+                    border-radius: 8px;
+                }
+            }
+
+            .edit {
+                img {
+                    cursor: pointer;
+
+                    &:not(:last-child) {
+                        margin-right: 33px;
+                    }
+                }
+            }
+        }
+    }
+
+    .page-information {
+        padding: 0px 30px;
+        color: #9FA2B4;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 33px;
+
+        .page-rows {
+            margin-right: 48px;
+
+            .form-select {
+                background-color: transparent;
+                width: 60px;
+                border: none;
+                text-align: center;
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .arrows {
+            margin-left: 24px;
+
+            img {
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .student-none {
+        font-size: 17px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+
+        .student-name {
+            color: #FEAF00;
+            margin-right: 6px;
+        }
+    }
+}

@@ -31,7 +31,7 @@ export const getStudentDetail = (id) => {
     return getConfig(`https://dummyjson.com/users/${id}`)
 }
 
-//Öprenci bilgilerini güncelleme
+//Öğrenci bilgilerini güncelleme
 export const updateStudent = (form, id) => {
     let data = {
         'firstName': form.firstName,
